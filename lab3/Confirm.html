@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Album - Artist | Music Store</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="stylesheet" href="../Styles/bootstrap.min.css" media="screen">
+    </head>
+    <body>
+        <div class="container"> <!-- style="margin-top: 20px;"-->
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#albumsubmit">
+                        Open dialog
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="modal" id="albumsubmit">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 class="modal-title">Are you sure?</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Are you sure you wish to submit this album?</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn btn-primary">Confirm</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../Scripts/jquery-1.10.2.min.js"></script>
+        <script src="../Scripts/bootstrap.min.js"></script>
+    </body>
+</html>
